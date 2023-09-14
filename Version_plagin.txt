@@ -1,5 +1,0 @@
-Fairbase 1.7.9
-Adjust 2.0.1
-Global 13.0.1
-Facebook 10.1.02
-Add Line
