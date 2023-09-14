@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("../Kiryanov/CSS/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+  }
+
+/* Main */
+
+.text {
+    font-family: 'OpenSans Regular', sans-serif;
+    font-size: 19px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+.education {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+
+.experience {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.photo {
+    max-width: 430px;
+    margin: 30px auto;
+    padding: 15px 15px;
+    background-color: #ccc;
+}
+
+.name {
+text-align: center;
+color: chocolate;
+}
+
+img {
+    display: block;
+    border: 1px solid #410333;
+}
+
+h1 {
+    font-family: 'OpenSans ExtraBold';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Regular', serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+p {
+    font-family: 'OpenSans Regular', sans-serif;
+    font-size: initial;
+}
+
+li {
+    font-family: 'OpenSans Regular', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url("senior-qa-engineer.jpeg");
+}
